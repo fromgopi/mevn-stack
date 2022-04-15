@@ -1,7 +1,7 @@
 <template>
     <ul >
         <li v-for="(task, index) in TaskList" :key="index">
-            <span class="span-space">{{index}}</span>
+            <span class="span-space">{{task.id}}</span>
             <span class="span-space">{{task.name}}</span>
             <span>{{task.status}}</span>
         </li>

@@ -32,3 +32,19 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+ul {
+    list-style: none;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    display: flex;
+    margin:5px 0;
+    justify-content: space-between;
+    align-content: center;
+}
+</style>

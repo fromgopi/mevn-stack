@@ -4,3 +4,4 @@ export async function getAllTasks() {
     const response = baseUrl.get('/task')
     return await response.json()
 }
+

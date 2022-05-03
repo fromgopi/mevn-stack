@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 if(process.env.ENVIRONMENT !== 'production'){
     require('dotenv').config()
 }
-
+ 
 
 console.log('environment    ', process.env.ENVIRONMENT)
 console.log('PORT    ', process.env.PORT)

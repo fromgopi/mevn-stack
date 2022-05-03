@@ -7,7 +7,7 @@ if(process.env.ENVIRONMENT !== 'production'){
 }
  
 
-console.log('environment    ', process.env.ENVIRONMENT)
+console.log('environment    ', process.env.ENVIRONMENT) 
 console.log('PORT    ', process.env.PORT)
 console.log('MONGO_CONNECTION_STRING    ', process.env.MONGO_CONNECTION_STRING)
 

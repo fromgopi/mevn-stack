@@ -6,7 +6,7 @@ if(process.env.ENVIRONMENT !== 'production'){
     require('dotenv').config()
 }
   
-
+ 
 console.log('environment    ', process.env.ENVIRONMENT) 
 console.log('PORT    ', process.env.PORT)
 console.log('MONGO_CONNECTION_STRING    ', process.env.MONGO_CONNECTION_STRING)
